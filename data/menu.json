@@ -1,0 +1,16 @@
+{
+  "starters": [
+    {
+      "name": "Baba Ganoush",
+      "price": "$10",
+      "details": "creamy eggplant, green garlic, olive oil"
+    }
+  ],
+  "hummus": [
+    {
+      "name": "Hummus",
+      "price": "$8",
+      "details": "chickpeas"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="stylesheet" href="src/styles/normalize.css">
+    <link rel="stylesheet" href="lib/styles/main.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+    <title>Mock Restaurant Design</title>
+  </head>
+  <body>
+    <figure class="tint">
+      <img class="home" src="/images/shakshuka.jpg" alt="shakshuka">
+    </figure>
+    <header>
+      <div class="site-header">
+        <div class="logo">
+          <img src="images/Logo.png" alt="Logo">
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="#aboutUs" class="slide">About</a></li>
+            <li>
+              <a href="#menu" class="slide">Menu</a></li>
+            <li>
+              <a href="#press" class="slide">Press</a></li>
+            <li>
+              <a href="#locations" class="slide">Locations</a></li>
+            <li>
+              <a href="#contact" class="slide">Contact</a></li>
+            <li>
+              <a href="#order" class="slide">Order</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div id="content">
+      <section id="aboutUs">
+        <div class="sectionTitle">
+          <h2 class="mainTitle">About</h2>
+          <h4 class="subTitle">Chapel Hill, NC</h4>
+        </div>
+        <div class="aboutContentWrapper">
+          <div class="aboutImage">
+            <img src="/images/restaurant.jpg" alt="Restaurant">
+          </div>
+          <div class="aboutContent">
+            <p>Soko radicchio bunya nuts gram dulse silver beet parsnip napa cabbage lotus root sea lettuce brussels sprout cabbage. Catsear cauliflower garbanzo yarrow salsify chicory garlic bell pepper napa cabbage lettuce tomato kale arugula melon sierra leone bologi rutabaga tigernut. Sea lettuce gumbo grape kale kombu cauliflower salsify kohlrabi okra sea lettuce broccoli celery lotus root carrot winter purslane turnip greens garlic. JÃ­cama garlic courgette coriander radicchio plantain scallion cauliflower fava bean desert raisin spring onion chicory bunya nuts. Sea lettuce water spinach gram fava bean leek dandelion silver beet eggplant bush tomato.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="menu">
+        <div class="sectionTitle">
+          <h2 class="mainTitle">Menu</h2>
+          <h4 class="subTitle">Delivery or Pickup.</h4>
+        </div>
+        <div class="menuFood">
+          <img src="/images/falafel.jpg" alt="Falafel">
+          <img src="/images/salad.jpg" alt="Salad">
+        </div>
+        <ul class="menuItems">
+          <li id="column1">
+          </li>
+          <li id="column2">
+          </li>
+
+          <script id="menu-template" type="text/x-handlebars-template">
+            {{#each this}}
+            <ul class="">
+              <li class="header"><h3>{{@key}}</h3></li>
+              <li>
+                {{#this}}
+                <div class="itemTitle">
+                  <p>{{name}}</p>
+                  <span>{{price}}</span>
+                </div>
+                <div class="itemDetails">
+                  <p>{{details}}</p>
+                </div>
+                {{/this}}
+              </li>
+            </ul>
+            {{/each}}
+          </script>
+
+        </ul>
+      </section>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script src="lib/js/app.min.js"></script>
+    <script src="src/js/handlebars-v4.0.5.js"></script>
+  </body>
+</html>
