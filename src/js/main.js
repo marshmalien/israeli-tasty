@@ -9,10 +9,7 @@ $(document).ready(function() {
     var source = $("#menu-template").html();
     var template = Handlebars.compile(source);
     var html = template(context);
-    $("#column1").append(html);
-
-    console.log(context);
-    console.log(html);
+    $("#menuItems").append(html);
   }
 
   $(window).scroll(function() {

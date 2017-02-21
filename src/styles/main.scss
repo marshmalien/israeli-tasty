@@ -20,12 +20,14 @@ header {
         justify-content: flex-end;
         padding-top: 1em;
         li a {
-          line-height: 30px;
           color: white;
           font-family: 'Roboto', sans-serif;
           font-size: 15px;
+          line-height: 30px;
           margin: 0 25px;
+          outline: none;
           text-decoration: none;
+          z-index: 9999;
         }
         li.current {
           background-image: url('/images/menu-hover.png');
@@ -97,7 +99,7 @@ body {
       margin: 5em 1em;
     }
   }
-  .menuItems {
+  #menuItems {
     display: flex;
     margin: 2em;
     > li {
@@ -161,20 +163,6 @@ section {
       padding: 1.5em;
       text-transform: uppercase;
       width: 160px;
-      &:before, &:after {
-        position: absolute;
-        margin-top: 13px;
-        height: 2px;
-        width: 108px;
-        content: "";
-        border-top: 2px solid #32496f;
-      }
-      &:before {
-        left: 30%;
-      }
-      &:after {
-        right: 30%;
-      }
     }
     h4.subTitle {
       color: #656363;

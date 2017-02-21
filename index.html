@@ -61,32 +61,32 @@
           <img src="/images/falafel.jpg" alt="Falafel">
           <img src="/images/salad.jpg" alt="Salad">
         </div>
-        <ul class="menuItems">
-          <li id="column1">
-          </li>
-          <li id="column2">
-          </li>
 
+        <ul id="menuItems">
           <script id="menu-template" type="text/x-handlebars-template">
             {{#each this}}
-            <ul class="">
-              <li class="header"><h3>{{@key}}</h3></li>
-              <li>
-                {{#this}}
-                <div class="itemTitle">
-                  <p>{{name}}</p>
-                  <span>{{price}}</span>
-                </div>
-                <div class="itemDetails">
-                  <p>{{details}}</p>
-                </div>
-                {{/this}}
+              <li class="{{@key}}">
+                {{#each this}}
+                <ul>
+                  <li class="header"><h3>{{@key}}</h3></li>
+                  {{#this}}
+                  <li>
+                    <div class="itemTitle">
+                      <p>{{name}}</p>
+                      <span>{{price}}</span>
+                    </div>
+                    <div class="itemDetails">
+                      <p>{{details}}</p>
+                    </div>
+                  </li>
+                  {{/this}}
+                </ul>
+                {{/each}}
               </li>
-            </ul>
             {{/each}}
           </script>
-
         </ul>
+
       </section>
     </div>
     <script

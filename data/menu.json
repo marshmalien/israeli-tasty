@@ -1,16 +1,104 @@
 {
-  "starters": [
-    {
-      "name": "Baba Ganoush",
-      "price": "$10",
-      "details": "creamy eggplant, green garlic, olive oil"
-    }
-  ],
-  "hummus": [
-    {
-      "name": "Hummus",
-      "price": "$8",
-      "details": "chickpeas"
-    }
-  ]
+  "column1": {
+    "starters": [
+      {
+        "name": "Baba Ganoush",
+        "price": "$10",
+        "details": "creamy eggplant, green garlic, olive oil"
+      },
+      {
+        "name": "Israeli",
+        "price": "$11",
+        "details": "cherry tomatoes, cucumbers, parsley, za-atar"
+      },
+      {
+        "name": "Labneth",
+        "price": "$12",
+        "details": "Progress Farm yogurt, wax peppers, radishes"
+      },
+      {
+        "name": "Tabouleh",
+        "price": "$13",
+        "details": "parsley and bulgar wheat salad, red onion, toasted almonds, preserved lemon"
+      },
+      {
+        "name": "Lutenitsa",
+        "price": "$14",
+        "details": "Bulgarian puree of roasted pepper, eggplant, garlic and tomato"
+      }
+    ],
+    "hummus": [
+      {
+        "name": "King Trumpet Mushroom",
+        "price": "$16",
+        "details": "braised greens, black harissa, gribenes"
+      },
+      {
+        "name": "Curried Fried Cauliflower",
+        "price": "$12",
+        "details": "caramelized onions, cilantro"
+      },
+      {
+        "name": "Soft cooked egg",
+        "price": "$10",
+        "details": "red onion, pickles, harissa"
+      },
+      {
+        "name": "Tahini",
+        "price": "$9",
+        "details": "extra virgin olive oil, Aleppo pepper"
+      }
+    ]
+  },
+  "column2": {
+    "starters": [
+      {
+        "name": "Baba Ganoush",
+        "price": "$10",
+        "details": "creamy eggplant, green garlic, olive oil"
+      },
+      {
+        "name": "Israeli",
+        "price": "$11",
+        "details": "cherry tomatoes, cucumbers, parsley, za-atar"
+      },
+      {
+        "name": "Labneth",
+        "price": "$12",
+        "details": "Progress Farm yogurt, wax peppers, radishes"
+      },
+      {
+        "name": "Tabouleh",
+        "price": "$13",
+        "details": "parsley and bulgar wheat salad, red onion, toasted almonds, preserved lemon"
+      },
+      {
+        "name": "Lutenitsa",
+        "price": "$14",
+        "details": "Bulgarian puree of roasted pepper, eggplant, garlic and tomato"
+      }
+    ],
+    "hummus": [
+      {
+        "name": "King Trumpet Mushroom",
+        "price": "$16",
+        "details": "braised greens, black harissa, gribenes"
+      },
+      {
+        "name": "Curried Fried Cauliflower",
+        "price": "$12",
+        "details": "caramelized onions, cilantro"
+      },
+      {
+        "name": "Soft cooked egg",
+        "price": "$10",
+        "details": "red onion, pickles, harissa"
+      },
+      {
+        "name": "Tahini",
+        "price": "$9",
+        "details": "extra virgin olive oil, Aleppo pepper"
+      }
+    ]
+  }
 }
