@@ -189,13 +189,51 @@ body {
   h2.mainTitle {
     width: 8em;
   }
-  .contactWrapper {
+  .numbersWrapper {
     display: flex;
     align-items: center;
     flex-direction: column;
     > span {
       font-size: 1.5em;
       font-weight: lighter;
+    }
+  }
+  .contactWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    form {
+      width: 45%;
+      p {
+        margin: 0.5em 0;
+      }
+      input {
+        width: 100%;
+        color: #534f4f;
+        font-weight: 300;
+        height: 38px;
+        margin-bottom: 2px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+      }
+      textarea {
+        resize: none;
+        width: 100%;
+        border: 1px solid #ccc;
+      }
+      input[type="send"] {
+        background: #32496f;
+        border-radius: 5px;
+        color: white;
+        font-size: 14px;
+        margin-top: 5%;
+        padding: 15px;
+        text-align: center;
+        width: 25%;
+      }
+    }
+    iframe {
+      margin-left: 5%;
     }
   }
 }
