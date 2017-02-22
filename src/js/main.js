@@ -27,6 +27,12 @@ $(document).ready(function() {
     }
   });
 
+  $('.toggle-nav').click(function(event) {
+    $(this).toggleClass('active');
+    $('nav ul').toggleClass('active');
+    event.preventDefault();
+  })
+
   $(".slide").click(function(event) {
     var $li = $(this).parent();
     var linkHref = $(this).attr('href');
