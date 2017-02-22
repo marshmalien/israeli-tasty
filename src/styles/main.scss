@@ -119,6 +119,7 @@ section {
       font-weight: 300;
       letter-spacing: .1em;
       line-height: 32px;
+      text-align: center;
       text-transform: uppercase;
     }
   }
@@ -238,16 +239,16 @@ section {
   .blockWrapper {
     display: flex;
     margin-right: 5%;
-    .block {
-      float: left;
-      margin-left: 5%;
-      width: 28.33%;
-      overflow: hidden;
-      position: relative;
-    }
-    .block:hover .locationDescription {
-        transform: matrix(1, 0, 0, 1, 0, -400);
-    }
+  }
+  .block {
+    float: left;
+    margin-left: 5%;
+    width: 28.33%;
+    overflow: hidden;
+    position: relative;
+  }
+  .block:hover .locationDescription {
+    transform: matrix(1, 0, 0, 1, 0, -420);
   }
   .locationWrapper {
     background: white;
@@ -264,7 +265,7 @@ section {
     position: absolute;
     width: 100%;
     transition: all 0.5s ease;
-    padding: 20%;
+    padding: 25% 20%;
     text-align: center;
     p {
       line-height: 2.2em;
@@ -340,9 +341,18 @@ section {
     display: flex;
     justify-content: center;
     .orderButton img {
-      max-width: 200px;
+      max-width: 100px;
       padding: 10%;
     }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #locations .block:hover .locationDescription {
+    transform: matrix(1, 0, 0, 1, 0, -380);
+  }
+  #locations .locationDescription {
+    padding: 25% 10%;
   }
 }
 
@@ -402,10 +412,10 @@ section {
         width: 70%;
         margin: 5% 15%;
       }
-      .block:hover .locationDescription {
-        transform: matrix(1, 0, 0, 1, 0, -550);
-        padding: 30% 20%;
-      }
+    }
+    .block:hover .locationDescription {
+      transform: matrix(1, 0, 0, 1, 0, -640);
+      padding: 40% 20%;
     }
   }
   #contact {
@@ -420,5 +430,30 @@ section {
         width: 100%;
       }
     }
+  }
+}
+@media screen and (max-width: 750px) {
+  #locations .block:hover .locationDescription {
+    transform: matrix(1, 0, 0, 1, 0, -600);
+  }
+  #locations .locationDescription {
+    padding: 50% 20%;
+  }
+}
+@media screen and (max-width: 600px) {
+  img.overlay {
+    padding: 10%;
+    top: 30%;
+  }
+  .logo img {
+    display: none;
+  }
+  #locations .block:hover .locationDescription {
+    transform: matrix(1, 0, 0, 1, 0, -500);
+  }
+}
+@media screen and (max-width: 480px) {
+  #locations .block:hover .locationDescription {
+    transform: matrix(1, 0, 0, 1, 0, -460);
   }
 }
