@@ -27,9 +27,16 @@ $(document).ready(function() {
     }
   });
 
-  $('.toggle-nav').click(function(event) {
+  $('.toggle-nav').on('click touchstart', function(event) {
     $(this).toggleClass('active');
     $('nav ul').toggleClass('active');
+    event.preventDefault();
+  });
+
+
+  $('nav li').on('click touchstart', function(event) {
+    $('nav ul').addClass('active');
+    console.log('hi');
     event.preventDefault();
   })
 
