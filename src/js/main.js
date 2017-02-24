@@ -40,7 +40,7 @@ $(document).ready(function() {
     event.preventDefault();
   })
 
-  $(".slide").click(function(event) {
+  $(".slide").on ('click touchstart', function(event) {
     var $li = $(this).parent();
     var linkHref = $(this).attr('href');
 

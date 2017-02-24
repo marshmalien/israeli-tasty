@@ -285,8 +285,10 @@ section {
 /*----- Contact Section -----*/
 #contact {
   background-color: #D0DDE3;
-  h2.mainTitle {
-    width: 8em;
+  .sectionTitle {
+    h2 {
+      width: 8em;
+    }
   }
   .numbersWrapper {
     align-items: center;
@@ -342,10 +344,15 @@ section {
   background-color: #32496F;
   color: white;
   letter-spacing: 2px;
-  .sectionTitle h2 {
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    font-size: 2.5em;
+  .sectionTitle {
+    h2 {
+      font-family: 'Roboto', sans-serif;
+      text-transform: uppercase;
+      font-size: 2.5em;
+    }
+    h3 {
+      text-align: center;
+    }
   }
   .orderButtons {
     display: flex;
@@ -397,7 +404,7 @@ section {
     .menuFood {
       flex-direction: column;
       img {
-        margin: 1em 5em;
+        margin: 1em;
       }
     }
     #menuItems {
@@ -411,7 +418,7 @@ section {
     .blogWrapper {
       flex-direction: column;
       .blog {
-        margin: 5% 15%;
+        margin: 5%;
       }
     }
   }
@@ -419,8 +426,8 @@ section {
     .blockWrapper {
       flex-direction: column;
       .block {
-        margin: 5% 15%;
-        width: 70%;
+        margin: 5% 10%;
+        width: 80%;
       }
     }
     .block:hover .locationDescription {
@@ -431,7 +438,7 @@ section {
   #contact {
     .contactWrapper {
       flex-direction: column;
-      padding: 10%;
+      padding: 2%;
       form {
         width: 100%;
       }
