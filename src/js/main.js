@@ -7,7 +7,7 @@ $(document).ready(function() {
   var order = $('#order');
   var isScrolling = false;
 
-  fetch("/data/menu.json")
+  fetch("data/menu.json")
   .then(function(response) {
     return response.json();
   }).then(compileTemplate);
