@@ -450,6 +450,9 @@ section {
 }
 
 @media screen and (max-width: 750px) {
+  .logo img {
+    display: none;
+  }
   #locations .block:hover .locationDescription {
     transform: matrix(1, 0, 0, 1, 0, -600);
   }
@@ -462,9 +465,6 @@ section {
   img.overlay {
     padding: 10%;
     top: 30%;
-  }
-  .logo img {
-    display: none;
   }
   .aboutImage img {
     max-width: 100%;
