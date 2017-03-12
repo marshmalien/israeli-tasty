@@ -51,53 +51,58 @@
     ]
   },
   "column2": {
-    "starters": [
+    "Small Plates": [
       {
-        "name": "Baba Ganoush",
-        "price": "$10",
-        "details": "creamy eggplant, green garlic, olive oil"
+        "name": "Shakshouka",
+        "price": "$16",
+        "details": "chermoula, parsnips, spicy chilies, tomato, egg"
       },
       {
-        "name": "Israeli",
-        "price": "$11",
-        "details": "cherry tomatoes, cucumbers, parsley, za-atar"
+        "name": "Lamb Kebab",
+        "price": "$16",
+        "details": "tomatoes, pine nuts, tahini, cilantro"
       },
       {
-        "name": "Labneth",
+        "name": "Avocado Toast",
+        "price": "$15",
+        "details": "smoked whitefish and pink peppercorns"
+      },
+      {
+        "name": "Wood Roasted Cabbage",
         "price": "$12",
-        "details": "Progress Farm yogurt, wax peppers, radishes"
+        "details": "muhammara, tahini, hazelnuts"
       },
       {
-        "name": "Tabouleh",
-        "price": "$13",
-        "details": "parsley and bulgar wheat salad, red onion, toasted almonds, preserved lemon"
+        "name": "Falafel",
+        "price": "$12",
+        "details": "cabbage salad and cucumber tzatziki"
       },
       {
-        "name": "Lutenitsa",
-        "price": "$14",
-        "details": "Bulgarian puree of roasted pepper, eggplant, garlic and tomato"
+        "name": "Crispy Halloumi",
+        "price": "$16",
+        "details": "ponchatoula strawberries, fresno peppers, carob molasses"
+      },
+      {
+        "name": "Crudité",
+        "price": "$6",
+        "details": "market vegetables and wild onion labneh"
       }
     ],
-    "hummus": [
+    "soup & salad": [
       {
-        "name": "King Trumpet Mushroom",
-        "price": "$16",
-        "details": "braised greens, black harissa, gribenes"
+        "name": "matzo ball soup",
+        "price": "$11",
+        "details": "slow cooked duck, dill, charred leeks, lemon oil"
       },
       {
-        "name": "Curried Fried Cauliflower",
+        "name": "Baby Lettuces",
+        "price": "$11",
+        "details": "sunflower seed duqqa, soft herb vinaigrette, radish"
+      },
+      {
+        "name": "Winter Squash",
         "price": "$12",
-        "details": "caramelized onions, cilantro"
-      },
-      {
-        "name": "Soft cooked egg",
-        "price": "$10",
-        "details": "red onion, pickles, harissa"
-      },
-      {
-        "name": "Tahini",
-        "price": "$9",
-        "details": "extra virgin olive oil, Aleppo pepper"
+        "details": "sprouted Louisiana wheat and kale tabouleh, pomegranate, tahini"
       }
     ]
   }
