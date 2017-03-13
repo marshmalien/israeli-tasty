@@ -36,7 +36,6 @@ $(document).ready(function() {
 
   $('nav li').on('click touchstart', function(event) {
     $('nav ul').addClass('active');
-    console.log('hi');
     event.preventDefault();
   })
 
